@@ -1,4 +1,4 @@
-Data Origin:
+##Data Origin:
 A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Here are the data for the project:
@@ -7,26 +7,40 @@ Files are space separated tables and vectors.
 More information on the assignment and the files used is contained in the ReadMe.md file.
 -------------------------
 The program run_analysis returns two tidy data sets:
+
 DF
 The test and train measurements were combined (X_train.txt and X_test.txt) with the combined correspoinding subject and activity levels (subject_train.txt and subject_test.txt,  y_train.txt and y_test.txt).  The column names used were contained in the file teatures.txt.
 Only columns containing the characters "mean", "Mean" and "std" were kept.
 Levels for activity (train and test y) were converted to meaningful descriptions using activity_labels.txt
+
 tidy2
 This data frame contains the average of each variable for each activity and each subject in DF.
 
 -------------------------
 Data and Variables
+
 DF = Data frame with tidy data (only mean and standard deviation values).
+
 tidy2 = Data frame with the average of each variable for each activity and each subject in DF.
+
 Columns:
+
  [1] "Subject", Factor numerical levels between 1 and 30.  70% of "Subjects" came from the train file and 30% from the 
+
  [2] "Activity", Factor with the following 6 levels: 
+
 	1 WALKING
+
 	2 WALKING_UPSTAIRS
+
 	3 WALKING_DOWNSTAIRS
+
 	4 SITTING
+
 	5 STANDING
+
 	6 LAYING                        
+
 The next 86 columns contain measurements of the sensor signals.  Units, range and other details can be obtained on the links above and in the file features_info.txt
  [3] "tBodyAcc-mean()-X"                    
  [4] "tBodyAcc-mean()-Y"                   
@@ -101,7 +115,7 @@ The next 86 columns contain measurements of the sensor signals.  Units, range an
 [73] "fBodyBodyAccJerkMag-mean()"            
 [74] "fBodyBodyAccJerkMag-std()"           
 [75] "fBodyBodyAccJerkMag-meanFreq()"       
- [76] "fBodyBodyGyroMag-mean()"             
+[76] "fBodyBodyGyroMag-mean()"             
 [77] "fBodyBodyGyroMag-std()"               
 [78] "fBodyBodyGyroMag-meanFreq()"         
 [79] "fBodyBodyGyroJerkMag-mean()"          
@@ -111,6 +125,6 @@ The next 86 columns contain measurements of the sensor signals.  Units, range an
 [83] "angle(tBodyAccJerkMean),gravityMean)" 
 [84] "angle(tBodyGyroMean,gravityMean)"    
 [85] "angle(tBodyGyroJerkMean,gravityMean)" 
- [86] "angle(X,gravityMean)"                
+[86] "angle(X,gravityMean)"                
 [87] "angle(Y,gravityMean)"                 
 [88] "angle(Z,gravityMean)"     

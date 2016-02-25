@@ -5,24 +5,23 @@ The instructions for the assginment are at the bottom of the document.
 
 ##To run this project:
 
-a-  Download and unzip:
+a-  Set the R working directory appropriately.  Files will be downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+and stored in the working directory.
 
-b- Set the folder named: "UCI HAR Dataset" containing the subfolders "train" and "test" as the working directory.
+b- Read the ReadMe.md and CodeBook.md files here for additional information
 
-c- Read the ReadMe.md and CodeBook.md for additional information
-
-d- Run the program run_analysis.R, this program will:
+c- Run the program run_analysis.R, this program will:
 
      1 - Merges the training and the test sets to create one data set called DF
 
-     2 - Extracts only the measurements on the mean and standard deviation for each measurement.
+     2 - Extracts only the measurements on the mean and standard deviation for each measurement
 
      3 - Uses descriptive activity names to name the activities in the data set
 
-     4 - Appropriately labels the data set with descriptive variable names.
+     4 - Appropriately labels the data set with descriptive variable names
 
-     5 - From the data set in step 4, creates a second, independent tidy data set called tidy2 with the average of each variable for each activity and each subject.
+     5 - From the data set in step 4, creates a second, independent tidy data set called tidy2 with the average of each variable for each activity and each subject
 
      6- The program will save a file in the "UCI HAR Dataset" folder called tidyData.txt  
 

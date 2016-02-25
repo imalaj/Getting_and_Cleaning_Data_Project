@@ -63,4 +63,4 @@ print("A tidy data set named tidy2 with the means by activity and subject was ma
 
 #Save data to file: tidyData.txt
 
-write.table(tidy2, './tidyData.txt',row.names=TRUE,sep='\t')
+write.table(tidy2, './tidyData.txt',row.names=FALSE,sep='\t') 

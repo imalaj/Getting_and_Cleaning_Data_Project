@@ -23,7 +23,7 @@ c- Run the program run_analysis.R, this program will:
 
      5 - From the data set in step 4, creates a second, independent tidy data set called tidy2 with the average of each variable for each activity and each subject
 
-     6- The program will save a file in the "UCI HAR Dataset" folder called tidyData.txt  
+     6- The program will save a file in the working directory called tidyData.txt  
 
 
 ---------------------------------------------------------------------------------
